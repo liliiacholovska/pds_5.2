@@ -62,12 +62,12 @@ void performSetOperations() {
         AxorB[i] = Abit[i] ^ Bbit[i];
     }
 
-    cout << "Bit vector A: ";
+    cout << "Bit A: ";
     for (int i = 0; i < n; ++i) {
         cout << Abit[i] << " ";
     }
 
-    cout << "\nBit vector B: ";
+    cout << "\nBit B: ";
     for (int i = 0; i < n; ++i) {
         cout << Bbit[i] << " ";
     }
